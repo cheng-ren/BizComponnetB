@@ -1,0 +1,6 @@
+framework module Pods_BizComponentB_Example {
+  umbrella header "Pods-BizComponentB_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
