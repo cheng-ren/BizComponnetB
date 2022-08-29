@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "BizComponentB"
-  s.version = "0.1.1"
+  s.version = "0.1.2"
   s.summary = "A short description of BizComponentB."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"任成"=>"rencheng11@icloud.com"}

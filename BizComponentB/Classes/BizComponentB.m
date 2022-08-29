@@ -12,7 +12,8 @@
 
 + (NSString *)version {
     NSLog(@"RCCommon: %@", [RCCommon version]);
-    return @"0.1.2";
+    [RCCommon testAddSymbal];
+    return @"0.1.4";
 }
 
 @end
