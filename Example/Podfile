@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'BizComponentB_Example' do
+  pod 'BizComponentB', :path => '../'
+
+  target 'BizComponentB_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
