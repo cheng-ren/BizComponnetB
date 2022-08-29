@@ -7,11 +7,14 @@
 //
 
 #import "YCAppDelegate.h"
+#import <BizComponentB/BizComponentB.h>
 
 @implementation YCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSLog(@"BizComponentB: %@", [BizComponentB version]);
+
     // Override point for customization after application launch.
     return YES;
 }

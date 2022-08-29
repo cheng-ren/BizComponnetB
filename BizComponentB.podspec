@@ -28,15 +28,20 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/cheng-ren/BizComponnetB.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'BizComponentB/Classes/**/*'
+  # s.source_files = 'BizComponentB/Classes/**/*'
   
   # s.resource_bundles = {
   #   'BizComponentB' => ['BizComponentB/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.source_files = 'BizComponentB/Classes/BizComponnetB.h'
+  
+  s.source_files = 'BizComponentB/Classes/**/*'
+  
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking'
+  s.dependency 'RCCommon', '0.1.6'
 end

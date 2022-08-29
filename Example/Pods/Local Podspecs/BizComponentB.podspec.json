@@ -1,9 +1,9 @@
 {
   "name": "BizComponentB",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of BizComponentB.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/任成/BizComponentB",
+  "homepage": "https://github.com/cheng-ren/BizComponnetB",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,16 +12,17 @@
     "任成": "rencheng11@icloud.com"
   },
   "source": {
-    "git": "https://github.com/任成/BizComponentB.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/cheng-ren/BizComponnetB.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "10.0"
   },
   "source_files": "BizComponentB/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
   "dependencies": {
-    "AFNetworking": [
-
+    "RCCommon": [
+      "0.1.6"
     ]
   }
 }
