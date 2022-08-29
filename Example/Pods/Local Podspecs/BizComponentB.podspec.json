@@ -1,6 +1,6 @@
 {
   "name": "BizComponentB",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "A short description of BizComponentB.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/cheng-ren/BizComponnetB",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/cheng-ren/BizComponnetB.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "10.0"
@@ -22,7 +22,7 @@
   "public_header_files": "Pod/Classes/**/*.h",
   "dependencies": {
     "RCCommon": [
-      "0.1.6"
+      "0.1.7"
     ]
   }
 }

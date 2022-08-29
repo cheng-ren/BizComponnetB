@@ -10,7 +10,11 @@
 @implementation RCCommon
 
 + (NSString *)version {
-    return @"0.1.6";
+    return @"0.1.7";
+}
+
++ (void)testAddSymbal {
+    NSLog(@"testAddSymbal");
 }
 
 @end
