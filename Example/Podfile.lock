@@ -1,7 +1,7 @@
 PODS:
-  - BizComponentB (0.1.2):
-    - RCCommon (= 0.1.7)
-  - RCCommon (0.1.7)
+  - BizComponentB (0.1.4):
+    - RCCommon (= 0.1.8)
+  - RCCommon (0.1.8)
 
 DEPENDENCIES:
   - BizComponentB (from `../`)
@@ -15,8 +15,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BizComponentB: 2d4e52db3367aa50932805e57f9f88e722b46b80
-  RCCommon: ffa69c7a84b21319d9b1e3a919b96ea9392b9e45
+  BizComponentB: 5ee0dcc9458bc3c6fe13438cba4ca2f5acfd69c3
+  RCCommon: 51a1499f9b4987a5b56ef920976de1fc9ce63b8d
 
 PODFILE CHECKSUM: fe303a5ae1e112f08880211b516c4319fa65ac7c
 

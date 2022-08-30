@@ -11,6 +11,7 @@
 #endif
 
 #import "RCCommon.h"
+#import "RCCommon1.h"
 
 FOUNDATION_EXPORT double RCCommonVersionNumber;
 FOUNDATION_EXPORT const unsigned char RCCommonVersionString[];

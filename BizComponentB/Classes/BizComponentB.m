@@ -7,11 +7,13 @@
 
 #import "BizComponentB.h"
 #import <RCCommon/RCCommon.h>
+#import <RCCommon/RCCommon1.h>
 
 @implementation BizComponentB
 
 + (NSString *)version {
     NSLog(@"RCCommon: %@", [RCCommon version]);
+    [RCCommon1 testCC];
     [RCCommon testAddSymbal];
     return @"0.1.4";
 }
